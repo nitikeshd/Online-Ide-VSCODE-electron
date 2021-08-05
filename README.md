@@ -10,12 +10,6 @@ In this Application, we have used Theia Blue Print Open Source Platform and Dock
 
 </div>
 
-[![Installers](https://img.shields.io/badge/download-installers-blue.svg?style=flat-curved)](https://theia-ide.org/docs/blueprint_download/)
-
-[Main Theia Repository](https://github.com/eclipse-theia/theia)
-
-[Visit the Theia website](http://www.theia-ide.org) for more [documentation](https://theia-ide.org/docs/blueprint_documentation/).
-
 ## License
 
 - [Eclipse Public License 2.0](LICENSE)
