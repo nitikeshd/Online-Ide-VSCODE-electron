@@ -1,7 +1,7 @@
 <br/>
 <div id="theia-logo" align="center">
 
-    <h3>Online Customized IDE By Nitikesh</h3>
+    Online Customized IDE By Nitikesh
 </div>
 
 <div id="badges" align="center">
