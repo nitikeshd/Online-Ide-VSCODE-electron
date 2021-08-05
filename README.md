@@ -65,7 +65,7 @@ yarn electron test
 
 ### Troubleshooting
 
->Inside your applciation folder
+>Inside your application folder
 ```
 
 npm install electron --save
