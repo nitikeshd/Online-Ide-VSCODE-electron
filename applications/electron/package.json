@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "theia-blueprint",
-  "description": "Eclipse Theia blueprint product",
-  "productName": "Theia Blueprint",
+  "name": "Codelab",
+  "description": "Nitikesh Codelab product",
+  "productName": "Nitikesh Codelab",
   "version": "1.14.0",
   "main": "scripts/theia-electron-main.js",
   "license": "EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0",
@@ -23,7 +23,7 @@
     "target": "electron",
     "frontend": {
       "config": {
-        "applicationName": "Theia Blueprint"
+        "applicationName": "Nitikesh Codelab"
       }
     },
     "backend": {
@@ -73,9 +73,12 @@
     "@theia/variable-resolver": "1.14.0",
     "@theia/vsx-registry": "1.14.0",
     "@theia/workspace": "1.14.0",
+    "fix-path": "^3.0.0",
     "fs-extra": "^9.0.1",
-    "theia-blueprint-updater": "1.14.0",
-    "theia-blueprint-product": "1.14.0"
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.3.0",
+    "theia-blueprint-product": "1.14.0",
+    "theia-blueprint-updater": "1.14.0"
   },
   "devDependencies": {
     "@theia/cli": "1.14.0",
@@ -86,7 +89,7 @@
     "@wdio/sync": "^6.10.0",
     "app-builder-lib": "^22.9.0",
     "chai": "^4.2.0",
-    "electron": "9.3.2",
+    "electron": "^9.4.4",
     "electron-builder": "^22.8.0",
     "electron-chromedriver": "9.0.0",
     "electron-mocha": "^9.3.2",
@@ -137,6 +140,11 @@
     "vscode.typescript": "https://open-vsx.org/api/vscode/typescript/1.52.1/file/vscode.typescript-1.52.1.vsix",
     "vscode.typescript-language-features": "https://open-vsx.org/api/vscode/typescript-language-features/1.52.1/file/vscode.typescript-language-features-1.52.1.vsix",
     "vscode.yaml": "https://open-vsx.org/api/vscode/yaml/1.52.1/file/vscode.yaml-1.52.1.vsix",
+    "vscode.python": "https://open-vsx.org/api/vscode/python1.58.2/file/vscode.python-1.58.2.vsix",
+    "vscode.php": "https://open-vsx.org/api/vscode/php/1.58.2/file/vscode.php-1.58.2.vsix",
+    "vscode.sql": "https://open-vsx.org/api/vscode/sql/1.58.2/file/vscode.sql-1.58.2.vsix",
+    "vscode.swift": "https://open-vsx.org/api/vscode/swift/1.58.2/file/vscode.swift-1.58.2.vsix",
+    "vscode.typescript": "https://open-vsx.org/api/vscode/typescript/1.58.2/file/vscode.typescript-1.58.2.vsix",
     "vscode.xml": "https://open-vsx.org/api/vscode/xml/1.52.1/file/vscode.xml-1.52.1.vsix",
     "vscode-builtin-node-debug": "https://open-vsx.org/api/ms-vscode/node-debug/1.44.8/file/ms-vscode.node-debug-1.44.8.vsix",
     "vscode-builtin-node-debug2": "https://open-vsx.org/api/ms-vscode/node-debug2/1.42.1/file/ms-vscode.node-debug2-1.42.1.vsix"
