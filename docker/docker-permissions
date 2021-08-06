@@ -1,0 +1,10 @@
+docker exec -it --user=root 3822645183fab2afd83f36aca4e9e5627c760d25b99df89696b65b9e31ddcc25 /bin/bash
+passwd root
+groups node
+vi /etc/passwd
+#change the permission for node from 1000 to 0 and save the file
+su root
+
+#Run Alpine commands to check:
+#e.g.: apk update
+#apk add --update nodejs npm
